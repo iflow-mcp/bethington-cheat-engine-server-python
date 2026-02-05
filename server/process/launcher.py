@@ -17,7 +17,7 @@ from datetime import datetime
 import psutil
 
 # Import whitelist functionality
-from config.whitelist import ProcessWhitelist
+from server.config.whitelist import ProcessWhitelist
 
 logger = logging.getLogger(__name__)
 
