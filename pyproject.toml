@@ -10,9 +10,6 @@ authors = [
     {name = "Anthropic", email = "support@anthropic.com"}
 ]
 license = {text = "MIT"}
-classifiers = [
-    "Private :: Do Not Upload"  # Prevents accidental uploads to PyPI
-]
 dependencies = [
     "mcp>=1.0.0",
     "trio>=0.22.0", 
@@ -31,4 +28,4 @@ packages = ["server", "server.cheatengine", "server.config", "server.gui_automat
 server = ["**/*.json"]
 
 [project.scripts]
-iflow-mcp_bethington-cheat-engine-server-python = "server.main:main"
+iflow-mcp-bethington-cheat-engine-server-python = "server.main:main"
